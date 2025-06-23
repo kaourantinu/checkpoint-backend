@@ -1,0 +1,22 @@
+entity: Countries
+items:
+  country1:
+    code: 'US'
+    name: 'United States'
+    emoji: '🇺🇸'
+    continent: 'North America'
+  country2:
+    code: 'FR'
+    name: 'France'
+    emoji: '🇫🇷'
+    continent: 'Europe'
+  country3:
+    code: 'JP'
+    name: 'Japan'
+    emoji: '🇯🇵'
+    continent: 'Asia'
+  country4:
+    code: 'BR'
+    name: 'Brazil'
+    emoji: '🇧🇷'
+    continent: 'South America'

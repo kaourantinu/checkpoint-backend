@@ -1,0 +1,35 @@
+{
+  "name": "checkpoint-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node-dev --watch ./src ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaourantinu/checkpoint-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaourantinu/checkpoint-backend/issues"
+  },
+  "homepage": "https://github.com/kaourantinu/checkpoint-backend#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.13.8",
+    "@apollo/server": "^4.12.2",
+    "graphql-tools": "^9.0.18",
+    "reflect-metadata": "^0.2.2",
+    "sqlite3": "^5.1.7",
+    "type-graphql": "^2.0.0-rc.2",
+    "typeorm": "^0.3.25",
+    "typeorm-fixtures-cli": "^4.1.0"
+  }
+}
